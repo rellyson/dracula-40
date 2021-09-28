@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Dracula-40
+Comment=A dark modern design theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Dracula-40
+MetacityTheme=Dracula-40
+IconTheme=Qogir-manjaro
+CursorTheme=Qogir-manjaro
+ButtonLayout=menu:minimize,maximize,close
