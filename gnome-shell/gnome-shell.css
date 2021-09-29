@@ -34,7 +34,7 @@ stage {
 
 .modal-dialog {
   color: #eeeeec;
-  background-color: #23252e;
+  background-color: #111216;
   border: 1px solid rgba(0, 0, 0, 0.75);
 }
 
@@ -45,7 +45,7 @@ stage {
   min-height: 22px;
   padding: 3px 24px;
   color: #eeeeec;
-  background-color: #23252e;
+  background-color: #111216;
   border-color: #151515;
   box-shadow: none;
   text-shadow: 0 1px rgba(0, 0, 0, 0.2);
@@ -61,7 +61,7 @@ stage {
 
 .button:hover {
   color: #eeeeec;
-  background-color: #1e2027;
+  background-color: #14161b;
   border-color: #151515;
   box-shadow: none;
   text-shadow: 0 1px rgba(0, 0, 0, 0.2);
@@ -70,7 +70,7 @@ stage {
 
 .button:insensitive {
   color: #868686;
-  border-color: #1a1a1a;
+  border-color: #14161b;
   background-color: #2a2a2a;
   box-shadow: none;
   text-shadow: none;
@@ -79,7 +79,7 @@ stage {
 
 .button:active {
   color: #eeeeec;
-  background-color: #1e2027;
+  background-color: #14161b;
   border-color: #151515;
   text-shadow: none;
   icon-shadow: none;
@@ -94,12 +94,12 @@ stage {
   color: #eeeeec;
   text-shadow: 0 1px rgba(0, 0, 0, 0.2);
   icon-shadow: 0 1px rgba(0, 0, 0, 0.2);
-  box-shadow: inset 0 0 0 2px #272a34;
+  box-shadow: inset 0 0 0 2px #14161b;
 }
 
 .popup-menu .button:hover {
   color: #eeeeec;
-  background-color: rgba(221, 221, 221, 0.08);
+  background-color: rgba(3, 3, 5, 0.301);
   border-color: transparent;
   text-shadow: 0 1px rgba(0, 0, 0, 0.2);
   icon-shadow: 0 1px rgba(0, 0, 0, 0.2);
@@ -108,7 +108,7 @@ stage {
 .popup-menu .button:insensitive {
   color: #868686;
   border-color: transparent;
-  background-color: rgba(221, 221, 221, 0.01);
+  background-color: rgba(3, 3, 5, 0.01);
   box-shadow: none;
   text-shadow: none;
   icon-shadow: none;
@@ -116,7 +116,7 @@ stage {
 
 .popup-menu .button:active {
   color: #eeeeec;
-  background-color: rgba(221, 221, 221, 0.15);
+  background-color: rgba(3, 3, 5, 0.15);
   border-color: transparent;
   text-shadow: none;
   icon-shadow: none;
@@ -125,7 +125,7 @@ stage {
 
 .modal-dialog .modal-dialog-linked-button, .hotplug-notification-item, .notification-banner .notification-button {
   color: #eeeeec;
-  background-color: #23252e;
+  background-color: #14161b;
   border-color: #151515;
   box-shadow: none;
   text-shadow: 0 1px rgba(0, 0, 0, 0.2);
@@ -140,7 +140,7 @@ stage {
 .modal-dialog .modal-dialog-linked-button:insensitive, .hotplug-notification-item:insensitive, .notification-banner .notification-button:insensitive {
   color: #868686;
   border-color: #1a1a1a;
-  background-color: #2a2a2a;
+  background-color: #14161b;
   box-shadow: none;
   text-shadow: none;
   icon-shadow: none;
@@ -148,7 +148,7 @@ stage {
 
 .modal-dialog .modal-dialog-linked-button:hover, .hotplug-notification-item:hover, .notification-banner .notification-button:hover {
   color: #eeeeec;
-  background-color: #2d2d2d;
+  background-color: #14161b;
   border-color: #151515;
   box-shadow: none;
   text-shadow: 0 1px rgba(0, 0, 0, 0.2);
@@ -164,7 +164,7 @@ stage {
 
 .modal-dialog .modal-dialog-linked-button:active, .hotplug-notification-item:active, .notification-banner .notification-button:active {
   color: #eeeeec;
-  background-color: #353535;
+  background-color: #14161b;
   border-color: #151515;
   text-shadow: none;
   icon-shadow: none;
@@ -347,12 +347,12 @@ StScrollBar StBin#trough {
 
 StScrollBar StButton#vhandle, StScrollBar StButton#hhandle {
   border-radius: 8px;
-  background-color: #979797;
+  background-color: #585858;
   margin: 3px;
 }
 
 StScrollBar StButton#vhandle:hover, StScrollBar StButton#hhandle:hover {
-  background-color: #bababa;
+  background-color: #585858;
 }
 
 StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
@@ -392,7 +392,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .popup-menu .search-entry:hover {
-  background-color: rgba(221, 221, 221, 0.15);
+  background-color: rgba(184, 184, 184, 0.15);
   border-color: #151515;
   color: #eeeeec;
 }
@@ -449,7 +449,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .popup-menu-item:insensitive {
-  color: rgba(221, 221, 221, 0.5);
+  color: rgba(128, 128, 128, 0.343);
 }
 
 .popup-inactive-menu-item {
@@ -534,14 +534,14 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .system-menu-action:hover, .system-menu-action:focus {
-  background-color: rgba(221, 221, 221, 0.1);
+  background-color: rgba(12, 14, 17, 0.356);
   color: #eeeeec;
   border: none;
   padding: 12px;
 }
 
 .system-menu-action:active {
-  background-color: rgba(221, 221, 221, 0.15);
+  background-color: rgba(12, 14, 17, 0.356);
   color: #eeeeec;
 }
 
@@ -608,7 +608,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .events-section-title:hover {
   color: #eeeeec;
-  background-color: rgba(221, 221, 221, 0.08);
+  background-color: rgba(100, 97, 97, 0.08);
   border-color: transparent;
   text-shadow: 0 1px rgba(0, 0, 0, 0.2);
   icon-shadow: 0 1px rgba(0, 0, 0, 0.2);
@@ -865,7 +865,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .events-button:hover {
   color: #eeeeec;
-  background-color: rgba(221, 221, 221, 0.08);
+  background-color: rgba(95, 95, 95, 0.08);
   border-color: transparent;
   text-shadow: 0 1px rgba(0, 0, 0, 0.2);
   icon-shadow: 0 1px rgba(0, 0, 0, 0.2);
@@ -873,7 +873,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .events-button:active {
   color: #eeeeec;
-  background-color: rgba(221, 221, 221, 0.15);
+  background-color: rgba(95, 95, 95, 0.15);
   border-color: transparent;
   text-shadow: none;
   icon-shadow: none;
@@ -923,7 +923,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .world-clocks-button:hover {
   color: #eeeeec;
-  background-color: rgba(221, 221, 221, 0.08);
+  background-color: rgba(26, 29, 34, 0.637);
   border-color: transparent;
   text-shadow: 0 1px rgba(0, 0, 0, 0.2);
   icon-shadow: 0 1px rgba(0, 0, 0, 0.2);
@@ -931,7 +931,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .world-clocks-button:active {
   color: #eeeeec;
-  background-color: rgba(221, 221, 221, 0.15);
+  background-color: rgba(26, 29, 34, 0.356);
   border-color: transparent;
   text-shadow: none;
   icon-shadow: none;
@@ -998,7 +998,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .weather-button:hover {
   color: #eeeeec;
-  background-color: rgba(221, 221, 221, 0.08);
+  background-color: rgba(26, 29, 34, 0.637);
   border-color: transparent;
   text-shadow: 0 1px rgba(0, 0, 0, 0.2);
   icon-shadow: 0 1px rgba(0, 0, 0, 0.2);
@@ -1006,7 +1006,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .weather-button:active {
   color: #eeeeec;
-  background-color: rgba(221, 221, 221, 0.15);
+  background-color: rgba(26, 29, 34, 0.356);
   border-color: transparent;
   text-shadow: none;
   icon-shadow: none;
@@ -1100,7 +1100,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .message:hover {
   color: #eeeeec;
-  background-color: rgba(221, 221, 221, 0.08);
+  background-color: rgba(139, 139, 139, 0.08);
   border-color: transparent;
   text-shadow: 0 1px rgba(0, 0, 0, 0.2);
   icon-shadow: 0 1px rgba(0, 0, 0, 0.2);
@@ -1108,7 +1108,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .message:active {
   color: #eeeeec;
-  background-color: rgba(221, 221, 221, 0.15);
+  background-color: rgba(139, 139, 139, 0.15);
   border-color: transparent;
   text-shadow: none;
   icon-shadow: none;
@@ -1171,12 +1171,12 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .message .message-close-button:hover {
   color: #eeeeec;
-  background-color: rgba(221, 221, 221, 0.1);
+  background-color: rgba(35, 37, 46, 0.1);
 }
 
 .message .message-close-button:active {
   color: #eeeeec;
-  background-color: rgba(221, 221, 221, 0.15);
+  background-color: rgba(35, 37, 46, 0.15);
 }
 
 .message .message-body {
@@ -1253,12 +1253,12 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .candidate-box:hover {
-  background-color: rgba(221, 221, 221, 0.1);
+  background-color: rgba(37, 37, 37, 0.322);
   color: #eeeeec;
 }
 
 .candidate-box:active {
-  background-color: rgba(221, 221, 221, 0.15);
+  background-color: rgba(37, 37, 37, 0.322);
   color: #eeeeec;
 }
 
@@ -2320,7 +2320,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .system-action-icon {
-  background-color: rgba(221, 221, 221, 0.1);
+  background-color: rgba(54, 54, 54, 0.158);
   color: #eeeeec;
   border-radius: 1000px;
   icon-size: 48px;
@@ -2908,7 +2908,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .unlock-dialog .modal-dialog-button:default:insensitive {
   color: #868686;
   border-color: #1a1a1a;
-  background-color: #2a2a2a;
+  background-color: #101116;
   box-shadow: none;
   text-shadow: none;
   icon-shadow: none;
@@ -2927,8 +2927,8 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   border-radius: 99px;
   width: 2.18em;
   height: 2.18em;
-  border-color: #272727;
-  background-color: #272727;
+  border-color: #14161b;
+  background-color: #101116;
 }
 
 .login-dialog .cancel-button StIcon,
@@ -3110,14 +3110,14 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .unlock-dialog-notifications-container .unlock-dialog-notification-source {
   padding: 12px 6px;
   border: none;
-  background-color: rgba(60, 60, 60, 0.3);
+  background-color: rgba(9, 10, 12, 0.3);
   color: #efefef;
   border-radius: 5px;
 }
 
 .unlock-dialog-notifications-container .notification.critical,
 .unlock-dialog-notifications-container .unlock-dialog-notification-source.critical {
-  background-color: rgba(60, 60, 60, 0.9);
+  background-color: rgba(9, 10, 12, 0.637);
 }
 
 .unlock-dialog-notification-label {
